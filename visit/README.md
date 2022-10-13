@@ -217,7 +217,7 @@ Let's scale the colormap so that we can more easily visualize the data, as well 
 3. Check the `Maximum` box and set it to `1e9`
 4. Select the `Log` scaling option
 5. Change the `Color Table` from `Default` to `hot_desaturated`
-5. Hit "Apply" and close the pseudocolor attributes window.
+5. Click "Apply" and close the pseudocolor attributes window.
 6. Play through timesteps to see how the simulation progresses over time by using the ![Play](visit_figs/play.png) (play), ![Stop](visit_figs/stop.png) (stop/pause), and ![Advance](visit_figs/advance.png) (advance 1 frame) buttons.
 
 Alternatively, you can use the time slider or manually enter a timestep in the time slider's text box to advance to a specific timestep.
@@ -262,7 +262,7 @@ That data is stored in the `v02` variable and can be thought of as the fraction/
 6. Select the `Linear` scaling option
 7. Change the `Color Table` to `Blues`
 8. Set `Opacity` to `Ramp`. With this setting, values of `v02` that are closer to 0 are more transparent, while values closer to 1 are more opaque.
-9. Hit "Apply" and close the operator attributes window.
+9. Click "Apply" and close the operator attributes window.
 10. Click on the ![Draw](visit_figs/draw.png) icon to generate your plot.
 
 <p align="center" width="100%">
@@ -280,7 +280,7 @@ Because we intend this plot to be the same as the `v02` plot we just added, just
 2. Select or highlight your new plot/clone (click on it once), then click on the ![Swap variables](visit_figs/swap.png) icon and select `v03` to swap variables to `v03` for this clone.
 3. Double click on your `v03` plot to open up the "Pseudocolor plot attributes" window.
 4. Change the `Color Table` to `Oranges`
-5. Hit "Apply" and close the operator attributes window.
+5. Click "Apply" and close the operator attributes window.
 6. Click on the ![Draw](visit_figs/draw.png) icon to generate your plot.
 7. Play through timesteps to see how the simulation progresses over time by using the ![Play](visit_figs/play.png) (play), ![Stop](visit_figs/stop.png) (stop/pause), and ![Advance](visit_figs/advance.png) (advance 1 frame) buttons.
 
@@ -328,10 +328,10 @@ An isosurface is essentially a 3D contour of the data -- in this case we're goin
 3. Expand your plot details by clicking on the ![Expand](visit_figs/expand.png) icon, and then double click on your ![Isosurface](visit_figs/isosurface.png) property to change the `Select by` option to `Value(s)`
 4. Input `0.5` into the `Value(s)` box
 5. Change the `variable` option to `v02`
-6. Hit "Apply" and close the "Isosurface operator attributes" window.
+6. Click "Apply" and close the "Isosurface operator attributes" window.
 7. Double click on your ![Subset](visit_figs/subset.png) property to change the color to some form of blue.
 8. Using the slider, change the opacity to `50%`. Note that this is unrelated to the 0.5 value we chose earlier and that this is just so we can have some transparency.
-9. Hit "Apply" and close the "Subset plot attributes" window.
+9. Click "Apply" and close the "Subset plot attributes" window.
 10. Repeat steps 1-9, but for the variable `v03` and pick an orange or brown color for the asteroid in step 7.
 11. Click on the ![Draw](visit_figs/draw.png) icon to generate your plots.
 
@@ -674,4 +674,4 @@ This completes the walkthrough / tutorial -- thanks for following along!
 * You can save your session and come back to it later with "Options" &rarr; "Save Session" and "Options" &rarr; "Restore Session"
 * If you have trouble connecting but it worked before, try deleting your host profiles (save settings) then relaunching VisIt and remaking them. You can also try reinstalling visit and removing your `~/.visit` directory.
 * If you want to quickly re-use the same plots but with a different dataset, you can click on the relevant plot and click on the `Replace` button in VisIt's main control window. VisIt will then attempt to recreate the plots (the exact same way) with the new dataset.
-
+* For other troubleshooting situations, check out our [VisIt Page](https://docs.olcf.ornl.gov/software/viz_tools/visit.html#troubleshooting)
