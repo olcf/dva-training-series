@@ -1,5 +1,7 @@
 # VisIt at OLCF 2022
 
+> **Video recording / demo of this tutorial:** <https://vimeo.com/760322024>
+
 [VisIt](https://visit-dav.github.io/visit-website/) is an interactive, parallel analysis and visualization tool for scientific data.
 Users can visualize data interactively or offload visualization using a Python script to analyze data ranging in scale from small projects to large leadership-class computing simulations.
 Users can generate visualizations, animate them through time, manipulate them with a variety of operators and mathematical expressions, and save the resulting images and animations. Owing to its customizable plugin design, VisIt is capable of visualizing data from over 120 different scientific data formats.
