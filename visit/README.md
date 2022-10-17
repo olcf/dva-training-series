@@ -420,7 +420,7 @@ First, let's define some coordinate information:
 </p>
 
 The `Coordinates` variable will store coordinate information of the mesh.
-Although not used in the README version of the walkthrough, we do explore this live in the recording.
+Although not used in the README version of the walkthrough, we do explore this live in the [recording](https://vimeo.com/760322024).
 
 Next, let's create a similar variable called `radius` which will utilize our new `Coordinates` variable:
 
@@ -435,7 +435,7 @@ Next, let's create a similar variable called `radius` which will utilize our new
 </p>
 
 The `radius` variable will store radial information of the mesh.
-Although not used in the README version of the walkthrough, we do explore this live in the recording.
+Although not used in the README version of the walkthrough, we do explore this live in the [recording](https://vimeo.com/760322024).
 
 Finally, let's create a variable to help visualize the explosion called `bullets`:
 
@@ -479,7 +479,7 @@ What's happening is that the domain is so large (greater than 5 orders of magnit
 Because all the interesting data is much further in the star (within `2e9 cm`), we'll have to help VisIt and tell it to ignore data that is further out.
 This can be done with the `Threshold` operator.
 
-See recording for process of how we figured out what value to threshold on.
+See [recording](https://vimeo.com/760322024) for process of how we figured out what value to threshold on.
 Spoiler alert, it's a value of `0.03` for the `bullets` variable.
 
 To apply our `Threshold` operator:
@@ -677,3 +677,4 @@ This completes the walkthrough / tutorial -- thanks for following along!
 * If you have trouble connecting but it worked before, try deleting your host profiles (save settings) then relaunching VisIt and remaking them. You can also try reinstalling visit and removing your `~/.visit` directory.
 * If you want to quickly re-use the same plots but with a different dataset, you can click on the relevant plot and click on the `Replace` button in VisIt's main control window. VisIt will then attempt to recreate the plots (the exact same way) with the new dataset.
 * For other troubleshooting situations, check out our [VisIt Page](https://docs.olcf.ornl.gov/software/viz_tools/visit.html#troubleshooting)
+* Additional tips are mentioned in the recording/demo of this tutorial: <https://vimeo.com/760322024>
