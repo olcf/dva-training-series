@@ -17,4 +17,4 @@ This includes hands-on examples of how to analyze data generated on OLCF systems
 * Workflow Slides: <https://www.olcf.ornl.gov/wp-content/uploads/Jupyter_Analysis_Workflow.pdf>
 * DL Slides: <https://www.olcf.ornl.gov/wp-content/uploads/Jupyter_DL_Workflow.pdf>
 
-> Warning: The datasets listed in the slides have been moved from `/gpfs/alpine/world-shared/stf218/analysis_viz_training/07142022` to `/gpfs/alpine/world-shared/stf007/msandov1/jupyter_training`
+> Warning: The datasets listed in the slides have been moved from `/gpfs/alpine/world-shared/stf218/analysis_viz_training/07142022` to `/lustre/orion/world-shared/stf007/msandov1/jupyter_training`
