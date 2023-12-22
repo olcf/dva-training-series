@@ -12,3 +12,5 @@ The ParaView server running on Andes and Summit may be used in a headless batch 
 This beginner friendly tutorial will provide an overview of how to access ParaView at OLCF and how to use ParaView to visualize different datasets on Andes.
 
 You can find the tutorial at: <https://kmorel.gitlab.io/pv-tutorial-olcf-2022/>
+
+> Note as of December 2023: the datasets used in the tutorial have moved to `/lustre/orion/world-shared/stf007/msandov1/scivis_datasets`
