@@ -21,3 +21,4 @@ A list of the events (so far):
 | 10/13/22 | [VisIt at OLCF](./visit)              | Tutorial | [Recording](https://vimeo.com/760322024), [Tutorial](https://github.com/olcf/dva-training-series/blob/main/visit/README.md) |
 | 06/28/23 | Blender on Frontier | OLCF User Conference Call | [Recording](https://vimeo.com/840891737), [Slides](https://www.olcf.ornl.gov/wp-content/uploads/Blender_on_Frontier_published.pdf) |
 | 09/27/23 | In Situ Visualization with Ascent | OLCF User Conference Call | [Recording](https://vimeo.com/869656937), [Slides](https://www.olcf.ornl.gov/wp-content/uploads/Ascent_Tutorial_Sep2023.pdf) |
+| 08/29/24 | [ParaView on Frontier](./paraview_2024)    | Tutorial | [Recording](https://vimeo.com/1004226604), [Tutorial](https://kmorel.gitlab.io/pv-tutorial-olcf-2024/) |
